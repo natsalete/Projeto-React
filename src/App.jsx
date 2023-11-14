@@ -4,6 +4,8 @@ import MeuComponente from "./components/MeuComponents";
 
 import MeuContador from "./MeuContador";
 
+import MeuContador2 from "./MeuContador2";
+
 const minhaLista = [
   { id: '1', value: 'Fruta' },
   { id: '2', value: 'Legume' },
@@ -93,6 +95,13 @@ function App() {
           })}
         </ol>
       </div>
+
+      <div>
+        <h1>Estilização com classes e CSS Modules</h1>
+
+        <MeuContador2 />
+      </div>
+      
     </div>
   );
 }

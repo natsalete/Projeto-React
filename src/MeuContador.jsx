@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 export default function MeuContador() {
+    
   const [contador, setContador] = useState(0);
 
   function aumentar() {
